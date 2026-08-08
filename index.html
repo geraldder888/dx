@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DX-WIN株式会社</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+	<style>
+		body {
+			font-family: 'Roboto', sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f4f4f4;
+			color: #333;
+			line-height: 1.6;
+		}
+
+		header {
+			background-color: #2c3e50;
+			color: white;
+			padding: 20px 0;
+			text-align: center;
+		}
+
+		header h1 {
+			margin: 0;
+			font-size: 2rem;
+		}
+
+		nav ul {
+			list-style: none;
+			padding: 0;
+			margin: 20px 0 0;
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		nav ul li {
+			margin: 5px 10px;
+		}
+
+		nav ul li a {
+			color: white;
+			text-decoration: none;
+			font-weight: 500;
+			transition: background-color 0.3s, color 0.3s;
+			padding: 10px 15px;
+			display: inline-block;
+		}
+
+		nav ul li a:hover {
+			background-color: #18bc9c;
+			color: white;
+			border-radius: 5px;
+		}
+
+		nav ul li a.current-page {
+			background-color: #18bc9c;
+			color: #fff;
+			border-radius: 5px;
+			font-weight: bold;
+		}
+
+		main {
+			padding: 15px;
+			max-width: 1000px;
+			margin: 20px auto;
+			background-color: white;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			border-radius: 8px;
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin-bottom: 20px;
+		}
+
+		table,
+		th,
+		td {
+			border: 1px solid #ddd;
+		}
+
+		th,
+		td {
+			padding: 20px;
+			text-align: left;
+		}
+
+		th {
+			background-color: #2c3e50;
+			color: white;
+			white-space: nowrap; /* 1列目のテキストは改行しない */
+		}
+
+		td {
+			background-color: #f9f9f9;
+			white-space: normal; /* 2列目のテキストは改行を許可する */
+		}
+
+		iframe {
+			width: 100%;
+			border: 0;
+			border-radius: 8px;
+			margin-top: 20px;
+		}
+
+		footer {
+			background-color: #2c3e50;
+			color: white;
+			text-align: center;
+			padding: 15px 0;
+			margin-top: 30px;
+		}
+
+		/* レスポンシブデザインのためのメディアクエリ */
+		@media (max-width: 600px) {
+			header h1 {
+				font-size: 1.5rem;
+			}
+
+			nav ul li a {
+				font-size: 0.9rem;
+				padding: 8px 12px;
+			}
+
+			table th,
+			table td {
+				font-size: 0.9rem;
+				padding: 8px;
+			}
+
+			main {
+				padding: 10px;
+				margin: 10px;
+			}
+		}
+	</style>
+</head>
+
+
+
+<body>
+	<header>
+		<h1>DX-WIN株式会社</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html" class="current-page">会社概要</a></li>
+				<li><a href="solution.html">サービス内容</a></li>
+				<li><a href="recruit.html">採用情報</a></li>
+				<li><a href="ask.html">お問い合わせ</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="about">
+			<h2>会社概要</h2>
+			<table>
+				<tbody>
+					<tr>
+						<th>会社名</th>
+						<td>DX-WIN株式会社<br>(DX-WIN Co., Ltd)</td>
+					</tr>
+					<tr>
+						<th>所在地</th>
+						<td>
+							〒103-0023<br>
+							東京都中央区日本橋室町1丁目11番12号 日本橋水野ビル7階
+						</td>
+					</tr>
+					<tr>
+						<th>代表者</th>
+						<td>代表取締役 オウ セイ</td>
+					</tr>
+					<tr>
+						<th>設立</th>
+						<td>2024年9月</td>
+					</tr>
+					<tr>
+						<th>資本金</th>
+						<td>100万円</td>
+					</tr>
+					<tr>
+						<th>事業内容</th>
+						<td>
+							・クラウドソリューション<br>
+							・DX支援<br>
+							・ITコンサルティング<br>
+							・IT人材派遣サービス<br>
+							・受託開発<br>
+							・製品サービス
+						</td>
+					</tr>
+					<tr>
+						<th>主要取引銀行</th>
+						<td>・三菱UFJ銀行（本店）<br>
+						・住信SBIネット銀行</td>
+
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+		<section>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.652706765854!2d139.7757942!3d35.6855525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188954295310c1%3A0xd0b574c0ec508d54!2z44CSMTAzLTAwMjIg5p2x5Lqs6YO95Lit5aSu5Yy65pel5pys5qmL5a6k55S677yR5LiB55uu77yR77yR4oiS77yR77ySIOaXpeacrOapi-awtOmHjuODk-ODqyA36ZqO!5e0!3m2!1sja!2sjp!4v1723108083918!5m2!1sja!2sjp" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2025 DX-WIN Co., Ltd All rights reserved.</p>
+	</footer>
+</body>
+
+</html>

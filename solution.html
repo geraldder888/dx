@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サービス内容 | DX-WIN株式会社</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+            header h1 {
+                margin: 0;
+                font-size: 2rem;
+            }
+
+        .service-item {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-left: 5px solid #18bc9c;
+            border-radius: 5px;
+        }
+
+        .service-item2 {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-left: 5px solid #18bc9c;
+            border-radius: 5px;
+        }
+
+
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+            nav ul li {
+                margin: 5px 10px;
+            }
+
+                nav ul li a {
+                    color: white;
+                    text-decoration: none;
+                    font-weight: 500;
+                    transition: background-color 0.3s, color 0.3s;
+                    padding: 10px 15px;
+                    display: inline-block;
+                }
+
+                    nav ul li a:hover {
+                        background-color: #18bc9c;
+                        color: white;
+                        border-radius: 5px;
+                    }
+
+                    nav ul li a.current-page {
+                        background-color: #18bc9c;
+                        color: #fff;
+                        border-radius: 5px;
+                        font-weight: bold;
+                    }
+
+        main {
+            padding: 15px;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #ddd;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        iframe {
+            width: 100%;
+            border: 0;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+
+        /* レスポンシブデザインのためのメディアクエリ */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.5rem;
+            }
+
+            nav ul li a {
+                font-size: 0.9rem;
+                padding: 8px 12px;
+            }
+
+            table th,
+            table td {
+                font-size: 0.9rem;
+                padding: 8px;
+            }
+
+            main {
+                padding: 10px;
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>DX-WIN株式会社</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">会社概要</a></li>
+                <li><a href="solution.html" class="current-page special-highlight">サービス内容</a></li> <!-- 特に強調 -->
+                <li><a href="recruit.html">採用情報</a></li>
+                <li><a href="ask.html">お問い合わせ</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="it-solutions">
+            <div class="service-item">
+                <h2>ITソリューション提供</h2>
+                <p>DX-WIN株式会社は、お客様のビジネスニーズに応じた最適なITソリューションを提供します。私たちのソリューションは、クラウドコンピューティング、データ解析、人工知能（AI）、およびシステムインテグレーションに焦点を当てています。最新のテクノロジーを活用し、業務効率の向上とコスト削減を実現します。</p>
+                <h3>主なサービス:</h3>
+                <ul>
+                    <li>クラウドサービスの導入と管理</li>
+                    <li>データ分析とビジネスインテリジェンス</li>
+                    <li>AIを活用した業務自動化</li>
+                    <li>システムインテグレーションとカスタマイズ</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <section id="dx-support">
+            <div class="service-item2">
+                <h2>IT人材派遣</h2>
+                <p>企業の競争力を高めるためには、優れたIT人材の確保が欠かせません。当社では、お客様のニーズに合わせた専門的なITスキルを持つ人材を派遣し、プロジェクトの成功をサポートします。迅速かつ的確な人材提供により、ビジネスの成長を加速させます。</p>
+                <h3>主なサービス:</h3>
+                <ul>
+                    <li>プロジェクトに適したIT人材の派遣</li>
+                    <li>即戦力となるエンジニアの紹介</li>
+                    <li>長期・短期のニーズに対応</li>
+                    <li>技術サポートとスキル向上の支援</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 DX-WIN Co., Ltd All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
